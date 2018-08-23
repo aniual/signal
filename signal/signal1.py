@@ -16,7 +16,7 @@ alarm(7)
 signal(SIGALRM, handler)
 # signal(SIGINT, handler)
 # 阻塞等待信号处理
-pause()
+# pause()
 # 通过while 等待
 while True:
     print('waiting signal')
